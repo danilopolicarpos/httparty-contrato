@@ -44,7 +44,7 @@ Para executar os testes abra uma nova aba no terminal e digite:
 cucumber
 ```
 
-Caso necessite executar apenas uma feature digite:
+Caso necessário executar apenas uma feature digite:
 
 ```
 cucumber feature/nome da feature desejada.feature
