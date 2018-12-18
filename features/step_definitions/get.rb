@@ -1,5 +1,4 @@
-#language: pt
-  
+
   Dado("que acesso um endpoint") do
     @endereco = 'http://localhost:3000/usuarios/1'
   end
