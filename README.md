@@ -49,6 +49,25 @@ Caso necessário executar apenas uma feature digite:
 ```
 cucumber feature/nome da feature desejada.feature
 ```
+## Arquitetura do Projeto
+
+HTTParty-Contrato
+
+├── features
+│   ├── schemas              - Schemas usados para os testes de contrato
+│   │   └── schema.json
+│   ├── step_definitions     - Snippets para implementar os testes
+│   │   └── get.rb
+│   └── support              - Requisição das gens e configuração da pasta Schema
+│   │   └── env.rb
+│   ├── get.feature          - Feature escrita para os testes
+│
+│── .gitignore
+├── Gemfile                  - Dependencias usada no projeto
+├── Gemfile.lock             - Versões das gens instaladas
+├── README.md   
+└── info.json                - Arquivo usado pelo Json-server
+
 ## Referências:
 
 Link para maiores informações sobre o json-matcher:
