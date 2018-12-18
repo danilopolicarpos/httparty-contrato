@@ -1,4 +1,5 @@
 # httparty + cucumber e testes de contrato com json_matchers gem
+
 Consumir uma API Json-Server usando httparty + cucumber, validando o contrato da requisição 
 com json_matchers gem.
 
@@ -21,7 +22,7 @@ git clone https://github.com/andreluaz/httparty-contrato.git
 ```
 ## Instalação das dependências:
 
-Após a cópia "clonagem" do repositório digite:
+Após a clonagem do repositório digite:
 ```
 bundle install
 ```
