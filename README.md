@@ -50,7 +50,7 @@ Caso necessário executar apenas uma feature digite:
 cucumber feature/nome da feature desejada.feature
 ```
 ## Arquitetura do Projeto
-
+```
 HTTParty-Contrato
 
 ├── features
@@ -67,7 +67,7 @@ HTTParty-Contrato
 ├── Gemfile.lock             - Versões das gens instaladas
 ├── README.md   
 └── info.json                - Arquivo usado pelo Json-server
-
+```
 ## Referências:
 
 Link para maiores informações sobre o json-matcher:
